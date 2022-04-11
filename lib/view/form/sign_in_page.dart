@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sign_in_firebase/view/form/sign_in_page.dart';
+import 'package:sign_in_firebase/view/form/sign_up_page.dart';
 
-class SignUpPage extends StatelessWidget {
-  const SignUpPage({Key? key}) : super(key: key);
+class SignInPage extends StatelessWidget {
+  const SignInPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,17 +17,11 @@ class SignUpPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "Sign Up",
+              "Sign In",
               style: TextStyle(
                 fontSize: 22,
                 color: Colors.black,
               ),
-            ),
-            const SizedBox(
-              height: 26,
-            ),
-            TextField(
-              decoration: InputDecoration(labelText: 'Your Name'),
             ),
             const SizedBox(
               height: 26,
@@ -56,7 +50,7 @@ class SignUpPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16),
                   ),
                 ),
-                child: const Text('Sign Up'),
+                child: const Text('Sign In'),
               ),
             ),
             Center(
@@ -65,12 +59,12 @@ class SignUpPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const SignInPage(),
+                      builder: (context) => const SignUpPage(),
                     ),
                   );
                 },
                 child: const Text(
-                  'Have account? sign in',
+                  'Don\'t Have account? sign up',
                   style: TextStyle(
                       color: Colors.black45,
                       decoration: TextDecoration.underline),
