@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "961298038887",
+    "project_id": "sign-in-firebase-03",
+    "storage_bucket": "sign-in-firebase-03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961298038887:android:94304c30518352c6c694c2",
+        "android_client_info": {
+          "package_name": "com.ditateum.sign_in_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961298038887-s6fbnh6rj2pj26l8i6oo3m4kbtqfp0bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ditateum.sign_in_firebase",
+            "certificate_hash": "5267b517c494ae2752a65ca4859c078ddfe3eeb9"
+          }
+        },
+        {
+          "client_id": "961298038887-mghb8qf57nbkboelgtfqlosp8a39rrpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC51wAGYkt9hr94sSb9_yMMGZr5J0-ohXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961298038887-mghb8qf57nbkboelgtfqlosp8a39rrpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
